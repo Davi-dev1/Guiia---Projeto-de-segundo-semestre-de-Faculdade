@@ -1,5 +1,5 @@
 # Repositório do Gui IA  Oficial
-
+Este repositório faz parte de meu segundo semestre de faculdade , no qual junto a minha equipe desenvolvemos uma plataforma focado em um agente de ia que era capaz de orientar estudantes e não estudantes a como desenvolver um prompt de maneira eficaz e suscinta , todo o treinamento de nosso agente de ia , foi feito através de uma apostila que desenvolvemos durante o semestre.
 
 <p>O objetivo do projeto é implementar um agente de IA capaz de aprimorar a 
 comunicação de homem-máquina, oferecendo um suporte amigável, respostas 
