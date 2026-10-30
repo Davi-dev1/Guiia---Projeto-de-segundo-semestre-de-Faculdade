@@ -66,10 +66,8 @@ O ecossistema do projeto foi divido em camadas para garantir modularidade e perf
 ```
 
 ## Video Oficial do GuiIA
-<p align = "center">
-<video src="./documents/GuiIAOfficial_Video.mp4" width="100%" controls playsinline >
-
-
-
-</video>
+<p align="center">
+  <a href="https://youtu.be/YLDh_4jabIM" target="_blank">
+    <img src="https://img.youtube.com/vi/YLDh_4jabIM/hqdefault.jpg" width="100%" alt="Demonstração do GuiIA">
+  </a>
 </p>
