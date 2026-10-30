@@ -61,3 +61,15 @@ O ecossistema do projeto foi divido em camadas para garantir modularidade e perf
        │
        ▼ (Autenticação / Credenciais)
 [ Serviço Java ] ──> [ Banco de Dados MySQL ]
+
+
+```
+
+## Video Oficial do GuiIA
+<p align = "center">
+<video src="./documents/GuiIAOfficial_Video.mp4" width="100%" controls playsinline >
+
+
+
+</video>
+</p>
