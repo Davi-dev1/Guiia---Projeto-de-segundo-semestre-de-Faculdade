@@ -1,63 +1,63 @@
-# Repositório do Gui IA  Oficial
-Este repositório faz parte de meu segundo semestre de faculdade , no qual junto a minha equipe desenvolvemos uma plataforma focado em um agente de ia que era capaz de orientar estudantes e não estudantes a como desenvolver um prompt de maneira eficaz e suscinta , todo o treinamento de nosso agente de ia , foi feito através de uma apostila que desenvolvemos durante o semestre.
+# 🤖 GuiIA — Agente Especialista em Engenharia de Prompt
 
-<p>O objetivo do projeto é implementar um agente de IA capaz de aprimorar a 
-comunicação de homem-máquina, oferecendo um suporte amigável, respostas 
-precisas e eficazes, ambientado para que possa fazer leitura de apostilas. Todo o  tema e o foco central de nosso projeto se resume  na criação de um agente de IA ambientado em 
-apostilas com a temática Engenharia de Prompt que sirvam como ferramenta 
-pedagógica para democratizar o conhecimento sobre como interagir eficientemente 
-com modelos de Inteligência Artificial, com um forte foco na inclusão de pessoas com 
-deficiência visual através de formatos de materiais acessíveis (áudio e interatividade 
-por voz).</p>
+<p align="center">
+  <img src="https://github.com/Guiia-chat/Guiia_Oficial/blob/main/Gui%20IA/static/GUIA_IA.png" alt="Logo GuiIA" width="300"/>
+</p>
 
-![Guiia](https://github.com/Guiia-chat/Guiia_Oficial/blob/main/Gui%20IA/static/GUIA_IA.png)
-**Figura - guiia**
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-diferenciais-e-acessibilidade">Diferenciais</a> •
+  <a href="#-arquitetura-e-tecnologias">Tecnologias</a> •
+  <a href="#-estrutura-do-repositório">Estrutura</a> •
+  <a href="#-como-executar-o-projeto">Como Executar</a> •
+  <a href="#-equipe">Equipe</a>
+</p>
 
-# Tecnologias usadas em nosso Projeto :
+---
 
-**Para o Front End nós usamos :**
+## 📖 Sobre o Projeto
 
-<div align="center"> <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/HTML.svg" width="200"> <br>
+O **GuiIA** é uma plataforma inteligente desenvolvida como projeto acadêmico (voltado para o segundo semestre de faculdade), com o propósito de democratizar o acesso e o conhecimento sobre a **Engenharia de Prompt**. 
 
- Html
-Como código base utilizamos o HTML para realizar todo o esqueleto e toda a base para o nosso site. 
+A aplicação funciona como um assistente virtual especializado em orientar estudantes e o público geral a interagirem de maneira eficiente, clara e assertiva com modelos de Inteligência Artificial. O diferencial pedagógico da ferramenta reside no fato de que o comportamento e a base de conhecimento do agente foram moldados através de uma **apostila exclusiva** desenvolvida pela equipe ao longo do semestre.
 
+---
 
-<div align="center"> <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/CSS.svg" width="200"><br>
+## ♿ Diferenciais e Acessibilidade
 
- Css
-Para estilizar toda a nossa página utilizamos o CSS responsável por interagir e redimensionar toda a parte visual de nosso site.
+Mais do que ensinar sobre IA, o GuiIA nasceu com um forte compromisso social:
+* **Democratização do Conhecimento:** Facilita o aprendizado de técnicas de prompt para iniciantes e não-estudantes.
+* **Foco em Inclusão:** O projeto foi idealizado pensando na acessibilidade para **pessoas com deficiência visual**, incorporando suporte a formatos de materiais acessíveis, como interatividade por voz e recursos de áudio.
+* **Base de Conhecimento Especializada:** O agente consome conteúdos direcionados (apostilas temáticas), evitando respostas genéricas e focando no aprendizado prático.
 
-<div align="center"> <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Javascript.svg" width="200"><br>
- 
-Javascript
-Para o funcionamento de todo o nosso site utilizamos o javascript que foi responsável por criar funções e o envio de  formulários.
- 
+---
 
- <hr>
- <br>
+## 🚀 Tecnologias Utilizadas
 
- **Para o Back End nós usamos :** <br>
-<div align="center"> <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Python.svg" width="200"> <br>
+O ecossistema do projeto foi divido em camadas para garantir modularidade e performance:
 
-Python
-Código central usado para carregar os modelos de IA e fazer a conexão entre o Front-End e o Back-End.
+### Front-End
+* **HTML5:** Estruturação semântica e esqueleto das páginas.
+* **CSS3:** Estilização responsiva e identidade visual do assistente.
+* **JavaScript:** Dinamismo da interface, manipulação de DOM e gerenciamento de formulários/envio de mensagens.
 
-</div> <br> <div align="center"> <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Flask.svg" width="200"> <br>
+### Back-End
+* **Python:** Linguagem central para o processamento de rotinas de IA e manipulação de dados.
+* **Flask:** Microframework web leve utilizado para gerenciar as rotas e integrar a interface com os modelos de IA.
+* **Java:** Utilizado em serviços complementares, incluindo a integração segura da tela de autenticação/login com o banco de dados relacional.
 
-Flask
-Framework utilizado para criar as rotas e permitir a comunicação entre o site e os nossos modelos de IA.
+### Banco de Dados
+* **MySQL / MySQL Workbench:** Armazenamento estruturado de dados de usuários e credenciais de acesso.
 
-<div align = "center"><img src = "https://github.com/gui-bus/TechIcons/blob/main/Dark/Java.svg" width="200"><br>
+---
 
-Java
-Linguagem usada para realizar a conexão da tela de login com um outro banco de dados.
+## ⚙️ Arquitetura do Sistema
 
-</div>
-<br>
-
-**Para a nossa base de dados usamos o Mysql Workbranch :**
-
-<div align = "center"><img src = "https://github.com/gui-bus/TechIcons/blob/main/Dark/MySQL.svg" width="200"><br>
-
-
+```text
+[ Front-End (HTML/CSS/JS) ] 
+       │
+       ▼ (Requisições HTTP / Fetch)
+[ Back-End Flask (Python) ] ──> [ Modelos de IA / RAG (Apostila GuiIA) ]
+       │
+       ▼ (Autenticação / Credenciais)
+[ Serviço Java ] ──> [ Banco de Dados MySQL ]
