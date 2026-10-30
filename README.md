@@ -65,9 +65,16 @@ O ecossistema do projeto foi divido em camadas para garantir modularidade e perf
 
 ```
 
-## Video Oficial do GuiIA
+## 🎥 Demonstração Oficial do Sistema
+
+O **GuiIA** é uma plataforma inteligente desenvolvida para atuar como uma referência especializada no ensino e orientação de estudantes e entusiastas em **Engenharia de Prompt**, conceitos avançados de Inteligência Artificial e ecossistemas tecnológicos modernos. 
+
+A aplicação foi estruturada de ponta a ponta para entregar uma experiência fluida e segura, contando com fluxos robustos de autenticação (permitindo o cadastro e login de novos utilizadores) e integração eficiente entre front-end, microsserviços e base de dados.
+
 <p align="center">
   <a href="https://youtu.be/YLDh_4jabIM" target="_blank">
     <img src="https://img.youtube.com/vi/YLDh_4jabIM/hqdefault.jpg" width="100%" alt="Demonstração do GuiIA">
   </a>
+  <br>
+  <em>💡 Prévia em vídeo da interface e funcionalidades do GuiIA — Reprodução / YouTube</em>
 </p>
